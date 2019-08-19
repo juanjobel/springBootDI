@@ -3,7 +3,7 @@ package com.bolsadeideas.springboot.di.app.models.services;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-@Component("miServicioComplejo")
+//@Component("miServicioComplejo")
 public class MiServicioComplejo implements IServicio {
 
 	@Override

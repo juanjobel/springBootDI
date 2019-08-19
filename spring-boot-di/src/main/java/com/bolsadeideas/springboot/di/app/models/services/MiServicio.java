@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 
-@Component("miServicioSimple")
+//@Component("miServicioSimple")
 public class MiServicio implements IServicio{
 
 	

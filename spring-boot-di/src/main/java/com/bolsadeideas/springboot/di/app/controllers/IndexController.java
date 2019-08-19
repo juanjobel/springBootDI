@@ -14,7 +14,7 @@ public class IndexController {
 	 * Con la anotación @Autowired no hace falta instanciar un objeto, el framework lo hace
 	 * */
 	@Autowired
-	@Qualifier("miServicioSimple")
+	//@Qualifier("miServicioSimple")
 	private IServicio miServicio;
 	
 
