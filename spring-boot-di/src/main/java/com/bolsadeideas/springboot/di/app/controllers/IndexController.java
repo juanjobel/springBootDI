@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
+import com.bolsadeideas.springboot.di.app.models.services.IServicio;
 import com.bolsadeideas.springboot.di.app.models.services.MiServicio;
 
 @Controller
@@ -13,7 +14,7 @@ public class IndexController {
 	 * Con la anotación @Autowired no hace falta instanciar un objeto, el framework lo hace
 	 * */
 	@Autowired
-	private MiServicio miServicio;
+	private IServicio miServicio;
 	
 	@GetMapping({"/","","/index"})
 	public String index(Model model) {
